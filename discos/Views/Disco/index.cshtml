@@ -1,0 +1,58 @@
+﻿@model IEnumerable<dominio.Disco>
+
+@{
+    ViewData["Discos"] = "Lista de Discos";
+}
+
+<h1>Discos</h1>
+
+<div>
+@foreach (var item in Model)
+{
+        <div class="card mb-3 p-3">
+            <h4>Disco @item.Id</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => item.Id)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => item.Id)
+                </dd>
+
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => item.Titulo)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => item.Titulo)
+                </dd>
+
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => item.FechaLanzamiento)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => item.FechaLanzamiento)
+                </dd>
+
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => item.CantidadCanciones)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => item.CantidadCanciones)
+                </dd>
+
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => item.UrlTapa)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => item.UrlTapa)
+                </dd>
+            </dl>
+
+            <div>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.Id })
+            </div>
+        </div>
+}

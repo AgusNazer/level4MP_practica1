@@ -19,7 +19,7 @@ namespace negocio
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("Server=.\\SQLEXPRESS;Database=DISCOS_DB;Trusted_Connection=True;");
+            conexion = new SqlConnection("Server=localhost\\SQLEXPRESS;Database=DISCOS_DB;Trusted_Connection=True;");
             comando = new SqlCommand();
         }
 
