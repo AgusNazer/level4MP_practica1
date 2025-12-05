@@ -1,0 +1,11 @@
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\bin\Debug\negocio.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\bin\Debug\negocio.pdb
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\bin\Debug\dominio.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\bin\Debug\dominio.pdb
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\obj\Debug\negocio.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\obj\Debug\negocio.pdb
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\bin\Debug\System.Data.SqlClient.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\negocio\bin\Debug\System.Data.SqlClient.xml

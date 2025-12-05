@@ -1,0 +1,9 @@
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\bin\Debug\dominio.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\bin\Debug\dominio.pdb
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\obj\Debug\dominio.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\obj\Debug\dominio.pdb
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\bin\Debug\System.Data.SqlClient.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\bin\Debug\System.Data.SqlClient.xml
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\dominio\obj\Debug\dominio.csproj.Up2Date
