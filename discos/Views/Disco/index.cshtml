@@ -7,8 +7,8 @@
 <h1>Discos</h1>
 
 <div>
-@foreach (var item in Model)
-{
+    @foreach (var item in Model)
+    {
         <div class="card mb-3 p-3">
             <h4>Disco @item.Id</h4>
             <hr />
@@ -52,7 +52,19 @@
 
             <div>
                 @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Detalles", "Details", new { id = item.Id })
+                @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
+                <p>
+                    @Html.ActionLink("Agregar disco", "Create", null, new { @class = "btn btn-success" })
+                </p>
+
+                <form asp-action="Delete" method="post" style="display:inline">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit" class="btn btn-danger btn-sm"
+                            onclick="return confirm('¿Seguro que querés eliminar este disco?')">
+                        Eliminar
+                    </button>
+                </form>
             </div>
         </div>
-}
+    }
+</div>

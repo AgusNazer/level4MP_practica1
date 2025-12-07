@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -125,13 +126,58 @@ namespace negocio
                 datos.setearParametro("@id", id);
                 datos.ejecutarAccion();
 
+
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+        public Disco buscarPorId(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Disco disco = new Disco();
+            try
+            {
+                datos.setearConsulta("SELECT D.Id, Titulo, FechaLanzamiento, CantidadCanciones, UrlImagenTapa, " +
+                                   "IdEstilo, E.Descripcion Estilo, IdTipoEdicion, TE.Descripcion TipoEdicion " +
+                                   "FROM DISCOS D " +
+                                   "INNER JOIN ESTILOS E ON D.IdEstilo = E.Id " +
+                                   "INNER JOIN TIPOSEDICION TE ON D.IdTipoEdicion = TE.Id " +
+                                   "WHERE D.Id = @id");
+                datos.setearParametro("@id", id);
+                datos.ejecutarLectura();
 
-        
+                if (datos.Lector.Read())
+                {
+                    disco.Id = (int)datos.Lector["Id"];
+                    disco.Titulo = datos.Lector["Titulo"].ToString();
+                    disco.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
+                    disco.CantidadCanciones = (int)datos.Lector["CantidadCanciones"];
+                    if (!(datos.Lector["UrlImagenTapa"] is DBNull))
+                        disco.UrlTapa = datos.Lector["UrlImagenTapa"].ToString();
+
+                    disco.Estilo = new Estilo();
+                    disco.Estilo.Id = (int)datos.Lector["IdEstilo"];
+                    disco.Estilo.Descripcion = datos.Lector["Estilo"].ToString();
+
+                    disco.TipoEdicion = new TipoEdicion();
+                    disco.TipoEdicion.Id = (int)datos.Lector["IdTipoEdicion"];
+                    disco.TipoEdicion.Descripcion = datos.Lector["TipoEdicion"].ToString();
+                }
+
+                return disco;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
     }
 }

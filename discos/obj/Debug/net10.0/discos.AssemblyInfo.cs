@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("discos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33c73d0d966b179ba73dcbf905a3a411dc1470c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4820ab03fa774d0306d778c31fb8618f9f905110")]
 [assembly: System.Reflection.AssemblyProductAttribute("discos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("discos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

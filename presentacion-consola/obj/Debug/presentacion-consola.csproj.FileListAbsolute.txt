@@ -10,3 +10,5 @@ C:\Users\agust\Desktop\NETcursoNivel4\practica1\presentacion-consola\obj\Debug\p
 C:\Users\agust\Desktop\NETcursoNivel4\practica1\presentacion-consola\obj\Debug\presenta.93BBEA60.Up2Date
 C:\Users\agust\Desktop\NETcursoNivel4\practica1\presentacion-consola\obj\Debug\presentacion-consola.exe
 C:\Users\agust\Desktop\NETcursoNivel4\practica1\presentacion-consola\obj\Debug\presentacion-consola.pdb
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\presentacion-consola\bin\Debug\System.Data.SqlClient.dll
+C:\Users\agust\Desktop\NETcursoNivel4\practica1\presentacion-consola\bin\Debug\System.Data.SqlClient.xml

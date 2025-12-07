@@ -30,6 +30,18 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/agust/Desktop/NETcursoNivel4/practica1/discos/Views/Disco/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agust/Desktop/NETcursoNivel4/practica1/discos/Views/Disco/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agust/Desktop/NETcursoNivel4/practica1/discos/Views/Disco/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/agust/Desktop/NETcursoNivel4/practica1/discos/Views/Disco/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
